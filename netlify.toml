@@ -5,7 +5,7 @@ NPM_VERSION = "6.4.1"
 
 [build]
 command = "npm run build"
-publish="build"
+publish="dist"
 base="path-to-react-app"
 
 [[redirects]]
