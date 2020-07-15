@@ -155,4 +155,10 @@ export const robots = [
     username: 'Moriah.Stanton',
     email: 'Rey.Padberg@karina.biz'
   },
+  {
+    id: 27,
+    name: 'Sidiru Loris',
+    username: 'Sidru.Stanton',
+    email: 'Rey.Padberg@karina.biz'
+  },
 ];

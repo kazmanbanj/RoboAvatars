@@ -36,6 +36,61 @@ class App extends Component {
     //         })
     // }
 
+        //to fetch from server
+    // componentDidMount() {
+    //     fetch('https://jsonplaceholder.typicode.com/posts')
+    //         .then(response=> {
+    //             return response.json();
+    //         })
+    //         .then(users => {
+    //             this.setState({robots: posts})
+    //         })
+    // }
+
+        //to fetch from server
+    // componentDidMount() {
+    //     fetch('https://jsonplaceholder.typicode.com/albums')
+    //         .then(response=> {
+    //             return response.json();
+    //         })
+    //         .then(users => {
+    //             this.setState({robots: albums})
+    //         })
+    // }
+
+            //to fetch from server
+    // componentDidMount() {
+    //     fetch('https://jsonplaceholder.typicode.com/comments')
+    //         .then(response=> {
+    //             return response.json();
+    //         })
+    //         .then(users => {
+    //             this.setState({robots: comments})
+    //         })
+    // }
+
+            //to fetch from server
+    // componentDidMount() {
+    //     fetch('https://jsonplaceholder.typicode.com/photos')
+    //         .then(response=> {
+    //             return response.json();
+    //         })
+    //         .then(users => {
+    //             this.setState({robots: photos})
+    //         })
+    // }
+
+            //to fetch from server
+    // componentDidMount() {
+    //     fetch('https://jsonplaceholder.typicode.com/todos')
+    //         .then(response=> {
+    //             return response.json();
+    //         })
+    //         .then(users => {
+    //             this.setState({robots: todos})
+    //         })
+    // }
+
     onSearchChange = (event) => {
         this.setState({searchfield: event.target.value})
     }
