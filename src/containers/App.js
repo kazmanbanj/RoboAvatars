@@ -110,6 +110,7 @@ class App extends Component {
                 <Scroll>
                     <CardList robots={filteredRobots} />
                 </Scroll>
+                <p className="b f4-l mt4">Contact us on: 08084833968, 08163282411</p>
             </div>
         );
         }
