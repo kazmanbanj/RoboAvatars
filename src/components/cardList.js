@@ -1,16 +1,23 @@
 import React from 'react';
 import Card from './Card';
-// import { robots } from './robots'
 
-const CardList = ({robots}) => {
-    const cardComponent = robots.map((user, i) => {
-        return (<Card key={i} id={robots[i].id} name={robots[i].name} email={robots[i].email} />)
-    })
-    return (
-        <React.StrictMode>
-            {cardComponent}
-        </React.StrictMode>
-    );
+function CardList({ robots, favorites, onToggleFavorite }) {
+  return (
+    <div className="card-grid">
+      {robots.map((robot) => (
+        <Card
+          key={robot.id}
+          id={robot.id}
+          name={robot.name}
+          email={robot.email}
+          username={robot.username}
+          role={robot.role}
+          isFavorite={favorites.includes(robot.id)}
+          onToggleFavorite={onToggleFavorite}
+        />
+      ))}
+    </div>
+  );
 }
 
 export default CardList;
