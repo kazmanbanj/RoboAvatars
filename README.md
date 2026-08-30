@@ -1,3 +1,3 @@
 # RoboAvatars
 
-# live link: https://robotavatars.netlify.app
+# live link: https://robotavatars.vercel.app
